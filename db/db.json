@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "productno": 2,
+      "productname": "laptop",
+      "category": "C",
+      "price": 5000,
+      "id": "90c8"
+    },
+    {
+      "productno": "3",
+      "productname": "shoulder bag",
+      "category": "A",
+      "price": "5000",
+      "id": "a487"
+    },
+    {
+      "productno": 4,
+      "productname": "shoes",
+      "category": "D",
+      "price": 5000,
+      "id": "bcc7"
+    },
+    {
+      "id": "2a81",
+      "productno": "8",
+      "productname": "apple",
+      "category": "fruit",
+      "price": "300"
+    },
+    {
+      "id": "bd92",
+      "productno": "9",
+      "productname": "banana",
+      "category": "fruit",
+      "price": "5000"
+    },
+    {
+      "id": "31a5",
+      "productno": "10",
+      "productname": "glasses",
+      "category": "a",
+      "price": "200"
+    }
+  ]
+}

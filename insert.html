@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Dashboard - Product Details</title>
+  <link rel="stylesheet" href="ui1.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <aside class="sidebar">
+      <h2>Admin Panel</h2>
+      <ul>
+        <li><a href="index.html">Dashboard</a></li>
+        <li><a href="insert.html">Addproduct</a></li>
+        <li><a href="display.html">Display</a></li>
+        <li><a href="del.html">Update/Remove</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </aside>
+
+    
+    <main class="main-content">
+      <header class="navbar">
+        <h1>Product Details</h1>
+        <div class="profile-section">
+          <button class="btr"> <a href="uiregister.html"> Register</a></button>
+          
+        </div>
+      </header>
+
+      <section class="content-section">
+       
+        
+<div class="form-container">
+  <h2>Fill</h2>
+  <label for="eno">Productno.:</label>
+  <input type="text" id="eno" />
+
+  <label for="nm">Product Name:</label>
+  <input type="text" id="nm" />
+
+  <label for="city">Category:</label>
+  <input type="text" id="city" />
+
+  <label for="salary">Enter price:</label>
+  <input type="text" id="salary" />
+
+  <button id="btn1">Data Save</button>
+</div>
+      </section>
+    </main>
+  </div>
+  <script src="js/insert.js"></script>
+</body>
+</html> 
+
+
+
+
+
+
+<style>
+/* body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+} */
+
+.form-container {
+background-color: rgb(243, 148, 24);
+padding: 20px;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+width: 60%;
+margin: 10px auto;
+}
+
+.form-container h2 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.form-container label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+.form-container input[type="text"] {
+width: 100%;
+padding: 8px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+transition: border-color 0.3s ease;
+}
+
+.form-container input[type="text"]:focus {
+border-color: #007bff;
+}
+
+.form-container button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 4px;
+background-color: #007bff;
+color: #fff;
+font-size: 16px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+background-color: #0056b3;
+}
+</style>
+
